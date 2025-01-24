@@ -1,3 +1,10 @@
+/*
+ * File : main.rs
+ * Use  : The program loop of the software
+ */
+
+//file imports!
+mod init_balatro;
 
 // vv Basic Comment design.
 /*
@@ -13,9 +20,14 @@
  */
 fn main() {
 
+    init_balatro::init_balatro();
+
+    println!("Making sure we got here!");
+
     // basic structure of how I am going to design the data base using comments
-
-
+    
+   
+    //drop(start_balatro);
     /*
      * initialize_bot(){
      * 
@@ -66,4 +78,3 @@ fn main() {
 
 
 }
-
