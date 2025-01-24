@@ -5,7 +5,7 @@
 
 //file imports!
 mod init_balatro;
-
+mod image_capture;
 // vv Basic Comment design.
 /*
  * Function: 
@@ -20,14 +20,21 @@ mod init_balatro;
  */
 fn main() {
 
+    //initialized balatro
     init_balatro::init_balatro();
 
-    println!("Making sure we got here!");
+    //captures a screen shot of balatro
+    image_capture::capture_game_screen_shot();
+
+    //--println!("Making sure we got here!");
+
+
 
     // basic structure of how I am going to design the data base using comments
     
    
     //drop(start_balatro);
+    
     /*
      * initialize_bot(){
      * 
